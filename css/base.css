@@ -65,7 +65,7 @@
 .main_img {
 	width: 100vw;
 	height: 100vh !important;
-	background: url(./MAIN_BG.jpg);
+	background: url(../MAIN_BG.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 30%,0;
