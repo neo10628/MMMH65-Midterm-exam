@@ -652,6 +652,16 @@ SETTINGS
 }
 
 
+/* 2024/03/26 新增改下方因文字跑板問題 縮小作品大小CLASS */
+
+.introduction_fontsize_small{
+	/* -webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow:hidden; */
+	overflow:hidden;
+ 	white-space: nowrap;
+  	text-overflow: ellipsis;
+}
 
 
 
@@ -776,7 +786,7 @@ a:focus {
 	position: relative;
 	justify-content: flex-start;
 	align-items: center;
-	height: 100vh;
+	height: 93vh;
 
 }
 
